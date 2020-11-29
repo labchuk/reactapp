@@ -1,0 +1,32 @@
+.Auth {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #1089a2 0%, #23c3a6 100%);
+  width: 100%;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.Auth > div {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.Auth h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.Wrapper {
+  margin-top: 100px;
+}
+
+.WrapperForm {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background: rgba(221, 221, 221, 0.719);
+  border-radius: 5px;
+  padding: 15px;
+}
